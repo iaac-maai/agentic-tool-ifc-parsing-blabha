@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Module Discovery - Checker file exists",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestModuleDiscovery::test_checker_file_exists -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Function Discovery - Check function exists",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestFunctionDiscovery::test_check_function_exists -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Function Signature - Model parameter",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestFunctionDiscovery::test_check_function_signature -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Return Structure - Returns list",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestReturnStructure::test_returns_list -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 10
+    },
+    {
+      "name": "Return Structure - Returns dicts",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestReturnStructure::test_returns_dicts -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 10
+    },
+    {
+      "name": "Return Structure - Required keys present",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestReturnStructure::test_required_keys_present -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 15
+    },
+    {
+      "name": "Return Structure - Valid check_status",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestReturnStructure::test_check_status_valid -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 10
+    },
+    {
+      "name": "Value Types - Correct types",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestValueTypes -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 10
+    },
+    {
+      "name": "Functionality - Handles empty model",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestFunctionality::test_handles_empty_model -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 5
+    },
+    {
+      "name": "Functionality - Produces results",
+      "setup": "",
+      "run": "python -m pytest tests/test_checker_contract.py::TestFunctionality::test_produces_results -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 10
+    }
+  ]
+}
